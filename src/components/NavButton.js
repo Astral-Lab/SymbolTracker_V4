@@ -1,14 +1,12 @@
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 
 const NavButton = ({text, color, path}) => {
-    console.log(path)
     console.log("Btn re-rendered")
+    
     // function should be redefined every render, so we are fine
-    const handleClick = (text) => {
+    const handleClick = () => {
         console.log('handle click fired')
         // only run if path prop has a value and is not null, otherwise we'd be incrementing for no reason!
-        // check if btn is next or back
         /**
          * Get the selectedSymbols from localStorage.
          * This is safe, as by this stage localStorage will store the complete object with all its paths
@@ -16,10 +14,11 @@ const NavButton = ({text, color, path}) => {
          * Store the new object in localStorage, so next button can access lastest data
          */
         const selected = JSON.parse(localStorage.getItem("selectedSymbols"));
-        // const updatedSelected = { ...selected, current: text === "Next" ? selected.current < selected.paths.length - 1 ? selected.current + 1 : selected.current : text === "Back" ? selected.current > 0 ? selected.current - 1 : selected.current : null};
-
-        // test only next for now
-        const updatedSelected = { ...selected, current: selected.current < selected.paths.length - 1 ? selected.current + 1 : selected.current };
+        const updatedSelected = { 
+            ...selected, 
+            current: text === "Next" ? selected.current < selected.paths.length - 1 ? selected.current + 1 : selected.current 
+            : text === "Back" ? selected.current > 0 ? selected.current - 1 : selected.current : selected.current
+        };
         console.log(updatedSelected)
         localStorage.setItem("selectedSymbols", JSON.stringify(updatedSelected));
     }

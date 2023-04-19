@@ -1,12 +1,10 @@
 import NavButton from "./NavButton";
-import { useEffect, useState } from 'react';
 
 const SymbolLocation = ({image, iframe, description}) => {
-    // Having state here does not make sense, as there's no data we need to persist thoughout renders, in fact, we don't need to even re-render on this page
     const selected = JSON.parse(localStorage.getItem("selectedSymbols"));
-    // Add in bound checking!
-    const backPath = selected.current > 0 ? selected.paths[selected.current] : "/";
+    const backPath = selected.current > 0 ? selected.paths[selected.current - 1] : "/";
     const nextPath = selected.current < selected.paths.length - 1 ? selected.paths[selected.current + 1] : "/";
+    const isLast = selected.current === selected.paths.length - 1;
 
     console.log("SymbolLocation Re-render triggered!")
 
@@ -21,7 +19,7 @@ const SymbolLocation = ({image, iframe, description}) => {
                 className="w-screen aspect-video mt-2"
             />
             <p 
-                className="p-4 text-cente r tracking-wide"
+                className="p-4 text-center tracking-wide"
             >
                 {description}
             </p>
@@ -33,8 +31,8 @@ const SymbolLocation = ({image, iframe, description}) => {
                     key={backPath}
                 />
                 <NavButton
-                    text={"Next"}
-                    color={"bg-green-700"}
+                    text={isLast ? "Home" : "Next"}
+                    color={isLast ? "bg-blue-500" : "bg-green-700"}
                     path={nextPath}
                     key={nextPath}
                 />

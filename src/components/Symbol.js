@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 const Symbol = ({imageSrc, path, borderTheme, selectedSymbols, setSelectedSymbols}) => {
-    // add in call to localStorage to set default
     const [selected, setSelected] = useState(selectedSymbols.paths.includes(path));
 
     const handleClick = () => {
@@ -19,6 +18,7 @@ const Symbol = ({imageSrc, path, borderTheme, selectedSymbols, setSelectedSymbol
             className={`w-[25vmin] h-[25vmin] max-w-[130px] max-h-[130px] p-2 border-2 border-${borderTheme}`}
             style={ selected ? { background: "white" } : null }
             onClick={handleClick}
+            tabIndex="0"
         >
             <img
                 src={imageSrc}
