@@ -19,11 +19,12 @@ function App() {
       <Routes>
         {
           routes.map(route => {
+            console.log(route)
             return (
               <Route
                 path={route.path}
                 exact={route.exact}
-                key={route.key}
+                key={route.name}
                 element={<route.page {...route.props} />}
               />
             )

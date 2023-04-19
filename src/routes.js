@@ -28,6 +28,14 @@ import Kill from './images/symbols/vow/kill.png';
 // Root of Nightmares
 
 const routes = [
+    // Main Route
+    {
+        name: "main",
+        exact: null,
+        path: "/",
+        page: Main
+    },
+
     // Symbol Selection Routes
     {
         name: "kfselect",
@@ -270,15 +278,7 @@ const routes = [
         exact: null,
         path: "*",
         page: NotFound
-    },
-
-    // Main Route
-    {
-        name: "main",
-        exact: null,
-        path: "/",
-        page: Main
-    },
+    }
 ];
 
 export default routes;
