@@ -30,9 +30,9 @@ const SymbolSelect = ({symbolData, theme}) => {
             </div>
             <NavButton
                 text={"Next"}
-                // Add in low opacity green here
-                color={selectedSymbols.paths.length === 3 ? "bg-green-700" : "null"}
+                color={"bg-green-700"}
                 path={path}
+                opacity={selectedSymbols.paths.length !== 3 ? "opacity-25" : null}
             />
         </div>
     )

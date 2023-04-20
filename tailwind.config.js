@@ -11,6 +11,7 @@ module.exports = {
         'black-light': '#1f1f1f',
         'burgundy-red': '#65081f',
         'cyan': '#2990B5',
+        'alt-btn': '#111111;',
       },
       keyframes: {
         fleet: {

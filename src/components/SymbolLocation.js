@@ -11,8 +11,9 @@ const SymbolLocation = ({image, iframe, description}) => {
     return (
         <div className="grow flex flex-col justify-center items-center text-white text-2xl gap-4">
             <img
+                className="w-24"
                 src={image}
-                alt=""
+                alt="symbol"
             />
             <iframe 
                 src={iframe}

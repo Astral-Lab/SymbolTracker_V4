@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom';
 
-const NavButton = ({text, color, path}) => {
-    console.log("Btn re-rendered")
+const NavButton = ({text, color, path, opacity}) => {
     
     // function should be redefined every render, so we are fine
+    // we could use useCallback, however, every page needs a new function anyways, otherwise we'll be using stale values?
     const handleClick = () => {
-        console.log('handle click fired')
-        // only run if path prop has a value and is not null, otherwise we'd be incrementing for no reason!
         /**
          * Get the selectedSymbols from localStorage.
          * This is safe, as by this stage localStorage will store the complete object with all its paths
@@ -25,7 +23,7 @@ const NavButton = ({text, color, path}) => {
     return (
         <Link to={path}>
             <div 
-                className={`w-[128px] h-[64px] ${color} grid place-content-center rounded-md`}
+                className={`w-[128px] h-[64px] ${color} grid place-content-center rounded-md ${opacity}`}
                 onClick={handleClick}
                 >
                 {text}

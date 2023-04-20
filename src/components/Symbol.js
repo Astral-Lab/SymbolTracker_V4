@@ -22,7 +22,7 @@ const Symbol = ({imageSrc, path, borderTheme, selectedSymbols, setSelectedSymbol
         >
             <img
                 src={imageSrc}
-                alt=""
+                alt="the symbol"
             />
         </div>
     )
