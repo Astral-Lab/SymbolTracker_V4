@@ -37,9 +37,9 @@ guide anyway. Not to mention, if you are taking a screenshot of the symbols you 
 If you raid a regularly, that's a lot of bytes being eaten up. This is why I built Symbol Tracker. It provides convenience. It gives all Destiny players an incredibly easy way to unlock the secret chest.
 
 ### You said you released Symbol Tracker back in September, why did I not hear about it then?
-> Great question! And yes, I did release it back in September. On the initial September release, Symbol Tracker only had support for the King's Fall raid and looked
+> Great question! And yes, I did release it back in September (2022). On the initial September release, Symbol Tracker only had support for the King's Fall raid and looked
 > considerably different. If you are interested in having a look here's a link: [[old] Symbol Tracker](https://astral-lab.github.io/Symbol-Tracker-V1/).
 > I would also like to add I never origianlly planned for Symbol Tracker to be available to the public, as it was just meant to be a personal project to apply what I
 > had learned. The turning point came a few weeks after I had finished the first iteration of Symbol Tracker, as I felt I could significantly improve the quality of 
 > the site, in terms of the UI and how I structured the code. Fast forward till now, I can say I am happy with what I have been able to
-> achieve in this short amount of time, and look forward to further improving the site. 
+> achieve in this short amount of time, and look forward to further improving the site.
