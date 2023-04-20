@@ -14,7 +14,7 @@ const Socials = () => {
                 <a href="https://twitter.com/_astral_labs" target="_blank" rel="noreferrer">
                     <BsTwitter/>
                 </a>
-                <a href="https://github.com/Astral-Lab/Symbol_Tracker" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Astral-Lab/SymbolTracker_V3" target="_blank" rel="noreferrer">
                     <FaGithub/>
                 </a>
             </section>
