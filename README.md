@@ -8,7 +8,7 @@
 ### [Initial Release 1.0.0](https://astral-lab.github.io/Symbol-Tracker-V1/) - 26/09/2022 
 > * Symboltracker went live for the first time
 
-### [Update 2.0.0](https://) - 01/11/2022
+### [Update 2.0.0](https://astral-lab.github.io/Symbol_Tracker/) - 01/11/2022
 > * Complete site rework
 > * UI changes
 > * Added support for Vow of The Disciple raid
