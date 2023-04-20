@@ -6,6 +6,7 @@
 ## Update Log
 
 ### Initial Release 1.0.0 - 26/09/2022
+> * Symboltracker went live for the first time
 
 ### Update 2.0.0 - 01/11/2022
 > * Complete site rework
