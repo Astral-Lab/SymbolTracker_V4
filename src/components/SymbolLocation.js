@@ -17,6 +17,7 @@ const SymbolLocation = ({image, iframe, description}) => {
             <iframe 
                 src={iframe}
                 className="w-screen aspect-video mt-2"
+                title="Video showing where the symbol is located"
             />
             <p 
                 className="p-4 text-center tracking-wide"

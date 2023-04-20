@@ -19,7 +19,6 @@ const NavButton = ({text, color, path}) => {
             current: text === "Next" ? selected.current < selected.paths.length - 1 ? selected.current + 1 : selected.current 
             : text === "Back" ? selected.current > 0 ? selected.current - 1 : selected.current : selected.current
         };
-        console.log(updatedSelected)
         localStorage.setItem("selectedSymbols", JSON.stringify(updatedSelected));
     }
 

@@ -6,7 +6,6 @@ import NightmaresRaid from '../images/raid/RoNStart.jpg';
 const Main = () => {
     // clear localStorage
     localStorage.removeItem("selectedSymbols");
-    console.log(localStorage);
 
     return (
         <main className="w-full flex flex-col items-center gap-8">

@@ -8,13 +8,13 @@ const Socials = () => {
     return (
         <IconContext.Provider value={{size: '30px', color: 'white'}}>
             <section className="flex gap-6">
-                <a href="" target="_blank">
+                <a href="https://www.linkedin.com/in/josh-s-4a4b6926b/" target="_blank" rel="noreferrer">
                     <FaLinkedinIn/>
                 </a>
-                <a href="https://twitter.com/_astral_labs" target="_blank">
+                <a href="https://twitter.com/_astral_labs" target="_blank" rel="noreferrer">
                     <BsTwitter/>
                 </a>
-                <a href="https://github.com/Astral-Lab/Symbol_Tracker" target="_blank">
+                <a href="https://github.com/Astral-Lab/Symbol_Tracker" target="_blank" rel="noreferrer">
                     <FaGithub/>
                 </a>
             </section>

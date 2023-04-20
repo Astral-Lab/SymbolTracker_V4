@@ -43,7 +43,7 @@ const routes = [
         path: "/kfselect",
         page: SymbolSelect,
         props: {
-            symbolData: [{image: Rune1, path: "/kf/rune1"}, {image: Rune2, path: "/kf/rune2"}, {image: Rune3, path: "/kf/rune3"}, {image: Rune4, path: "/kf/rune4"}, {image: Rune5, path: "/kf/rune5"}, {image: Rune6, path: "/kf/rune6"}, {image: Rune7, path: "/kf/rune7"}, {image: Rune8, path: "/kf/rune8"}, {image: Rune9, path: "/kf/rune9"}],
+            symbolData: [{image: Rune1, path: "/kf/1"}, {image: Rune2, path: "/kf/2"}, {image: Rune3, path: "/kf/3"}, {image: Rune4, path: "/kf/4"}, {image: Rune5, path: "/kf/5"}, {image: Rune6, path: "/kf/6"}, {image: Rune7, path: "/kf/7"}, {image: Rune8, path: "/kf/8"}, {image: Rune9, path: "/kf/9"}],
             theme: "green-600"
         }
     },
@@ -54,7 +54,7 @@ const routes = [
         page: SymbolSelect,
         props: {
             
-            symbolData: [{image: Pyramid, path: "/vow/pyramid"}, {image: Give, path: "/vow/give"}, {image: Darkness, path: "/vow/darkness"}, {image: Traveller, path: "/vow/traveller"}, {image: Worship, path: "/vow/worship"}, {image: Light, path: "/vow/light"}, {image: Stop, path: "/vow/stop"}, {image: Gurdian, path: "/vow/gurdian"}, {image: Kill, path: "/vow/kill"}],
+            symbolData: [{image: Pyramid, path: "/vow/1"}, {image: Give, path: "/vow/2"}, {image: Darkness, path: "/vow/3"}, {image: Traveller, path: "/vow/4"}, {image: Worship, path: "/vow/5"}, {image: Light, path: "/vow/6"}, {image: Stop, path: "/vow/7"}, {image: Gurdian, path: "/vow/8"}, {image: Kill, path: "/vow/9"}],
             images: [Pyramid, Give, Darkness, Traveller, Worship, Light, Stop, Gurdian, Kill],
             theme: "orange-400"
         }
@@ -74,7 +74,7 @@ const routes = [
     {
         name: "rune1",
         exact: null,
-        path: "/kf/rune1",
+        path: "/kf/1",
         page: SymbolLocation,
         props: {
             image: Rune1,
@@ -85,7 +85,7 @@ const routes = [
     {
         name: "rune2",
         exact: null,
-        path: "/kf/rune2",
+        path: "/kf/2",
         page: SymbolLocation,
         props: {
             image: Rune2,
@@ -96,7 +96,7 @@ const routes = [
     {
         name: "rune3",
         exact: null,
-        path: "/kf/rune3",
+        path: "/kf/3",
         page: SymbolLocation,
         props: {
             image: Rune3,
@@ -107,7 +107,7 @@ const routes = [
     {
         name: "rune4",
         exact: null,
-        path: "/kf/rune4",
+        path: "/kf/4",
         page: SymbolLocation,
         props: {
             image: Rune4,
@@ -118,7 +118,7 @@ const routes = [
     {
         name: "rune5",
         exact: null,
-        path: "/kf/rune5",
+        path: "/kf/5",
         page: SymbolLocation,
         props: {
             image: Rune5,
@@ -129,7 +129,7 @@ const routes = [
     {
         name: "rune6",
         exact: null,
-        path: "/kf/rune6",
+        path: "/kf/6",
         page: SymbolLocation,
         props: {
             image: Rune6,
@@ -140,7 +140,7 @@ const routes = [
     {
         name: "rune7",
         exact: null,
-        path: "/kf/rune7",
+        path: "/kf/7",
         page: SymbolLocation,
         props: {
             image: Rune7,
@@ -151,7 +151,7 @@ const routes = [
     {
         name: "rune8",
         exact: null,
-        path: "/kf/rune8",
+        path: "/kf/8",
         page: SymbolLocation,
         props: {
             image: Rune8,
@@ -162,7 +162,7 @@ const routes = [
     {
         name: "rune9",
         exact: null,
-        path: "/kf/rune9",
+        path: "/kf/9",
         page: SymbolLocation,
         props: {
             image: Rune9,
@@ -175,7 +175,7 @@ const routes = [
     {
         name: "pyramid",
         exact: null,
-        path: "/vow/pyramid",
+        path: "/vow/1",
         page: SymbolLocation,
         props: {
             image: Pyramid,
@@ -186,7 +186,7 @@ const routes = [
     {
         name: "give",
         exact: null,
-        path: "/vow/give",
+        path: "/vow/2",
         page: SymbolLocation,
         props: {
             image: Give,
@@ -197,7 +197,7 @@ const routes = [
     {
         name: "darkness",
         exact: null,
-        path: "/vow/darkness",
+        path: "/vow/3",
         page: SymbolLocation,
         props: {
             image: Darkness,
@@ -208,7 +208,7 @@ const routes = [
     {
         name: "traveller",
         exact: null,
-        path: "/vow/traveller",
+        path: "/vow/4",
         page: SymbolLocation,
         props: {
             image: Traveller,
@@ -219,7 +219,7 @@ const routes = [
     {
         name: "worship",
         exact: null,
-        path: "/vow/worship",
+        path: "/vow/5",
         page: SymbolLocation,
         props: {
             image: Worship,
@@ -230,7 +230,7 @@ const routes = [
     {
         name: "light",
         exact: null,
-        path: "/vow/light",
+        path: "/vow/6",
         page: SymbolLocation,
         props: {
             image: Light,
@@ -241,7 +241,7 @@ const routes = [
     {
         name: "stop",
         exact: null,
-        path: "/vow/stop",
+        path: "/vow/7",
         page: SymbolLocation,
         props: {
             image: Stop,
@@ -252,7 +252,7 @@ const routes = [
     {
         name: "gurdian",
         exact: null,
-        path: "/vow/gurdian",
+        path: "/vow/8",
         page: SymbolLocation,
         props: {
             image: Gurdian,
@@ -263,7 +263,7 @@ const routes = [
     {
         name: "kill",
         exact: null,
-        path: "/vow/kill",
+        path: "/vow/9",
         page: SymbolLocation,
         props: {
             image: Kill,

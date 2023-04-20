@@ -6,7 +6,7 @@ const Symbol = ({imageSrc, path, borderTheme, selectedSymbols, setSelectedSymbol
     const handleClick = () => {
         if(selectedSymbols.paths.length < 3 && !selected) {
             setSelected(true);
-            setSelectedSymbols({...selectedSymbols, paths: [...selectedSymbols.paths, path]})
+            setSelectedSymbols({...selectedSymbols, paths: [...selectedSymbols.paths, path].sort((path1, path2) => Number(path1[path1.length - 1]) - Number(path2[path2.length - 1]))})
         } else {
             setSelected(false);
             setSelectedSymbols({...selectedSymbols, paths: selectedSymbols.paths.filter(thisPath => thisPath !== path)})
