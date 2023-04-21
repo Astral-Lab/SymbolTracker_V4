@@ -8,7 +8,7 @@ const Main = () => {
     localStorage.removeItem("selectedSymbols");
 
     return (
-        <main className="w-full flex flex-col items-center gap-8">
+        <main className="w-full flex flex-col items-center gap-8 lg:flex-row lg:justify-center grow">
             <RaidCard
                 imageSrc={NightmaresRaid}
                 raidName={"Root of Nightmares"}

@@ -5,7 +5,7 @@ import routes from './routes';
 
 function App() {
   return (
-    <div className="w-full min-h-screen bg-black-light flex flex-col font-gemunu">
+    <div className="w-full min-h-screen bg-black-light flex flex-col font-gemunu place-items-center">
       <Header/>
       <Routes>
         {

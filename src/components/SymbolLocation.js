@@ -16,7 +16,7 @@ const SymbolLocation = ({image, iframe, description}) => {
     console.log("SymbolLocation Re-render triggered!")
 
     return (
-        <div className="grow flex flex-col justify-center items-center text-white text-2xl gap-4">
+        <div className="grow flex flex-col justify-center items-center text-white text-2xl gap-4 lg:max-w-3xl">
             <img
                 className="w-24"
                 src={image}
@@ -24,11 +24,11 @@ const SymbolLocation = ({image, iframe, description}) => {
             />
             <iframe 
                 src={iframe}
-                className="w-screen aspect-video mt-2"
+                className="w-screen aspect-video mt-2 lg:max-w-3xl"
                 title="Video showing where the symbol is located"
             />
             <p 
-                className="p-4 text-center tracking-wide"
+                className="p-4 text-center tracking-wide lg:text-3xl"
             >
                 {description}
             </p>
