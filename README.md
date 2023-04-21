@@ -14,7 +14,7 @@
 > * Added support for Vow of The Disciple raid
 > * Open Graph Protocol support added
 
-### [Update 3.0.0](https://symboltracker.net) - XX/04/2022
+### [Update 3.0.0](https://symboltracker.net) - 22/04/2023
 > * Rebuilt using React and Tailwind
 > * UI Changes
 > * Updated OGP image
