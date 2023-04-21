@@ -292,7 +292,7 @@ const routes = [
         page: SymbolLocation,
         props: {
             image: LightNode,
-            iframe: "https://www.youtube.com/embed/Ogd7IdhCnq4",
+            iframe: "https://www.youtube.com/embed/NtmUeXGRWQk",
             description: "Light 2"
         }
     },
@@ -303,7 +303,7 @@ const routes = [
         page: SymbolLocation,
         props: {
             image: LightNode,
-            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            iframe: "https://www.youtube.com/embed/509dnxYNkio",
             description: "Light 3"
         }
     },
@@ -314,7 +314,7 @@ const routes = [
         page: SymbolLocation,
         props: {
             image: DarkNode,
-            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            iframe: "https://www.youtube.com/embed/Ogd7IdhCnq4",
             description: "Dark 1"
         }
     },
@@ -325,7 +325,7 @@ const routes = [
         page: SymbolLocation,
         props: {
             image: DarkNode,
-            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            iframe: "https://www.youtube.com/embed/yzNSZZ8ay7w",
             description: "Dark 2"
         }
     },
@@ -336,7 +336,7 @@ const routes = [
         page: SymbolLocation,
         props: {
             image: DarkNode,
-            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            iframe: "https://www.youtube.com/embed/mVDU6e8sMpk",
             description: "Dark 3"
         }
     },
