@@ -26,6 +26,8 @@ import Gurdian from './images/symbols/vow/gurdian.png';
 import Kill from './images/symbols/vow/kill.png';
 
 // Root of Nightmares
+import LightNode from './images/symbols/root/lightNode.png'
+import DarkNode from './images/symbols/root/darkNode.png'
 
 const routes = [
     // Main Route
@@ -53,9 +55,7 @@ const routes = [
         path: "/vowselect",
         page: SymbolSelect,
         props: {
-            
             symbolData: [{image: Pyramid, path: "/vow/1"}, {image: Give, path: "/vow/2"}, {image: Darkness, path: "/vow/3"}, {image: Traveller, path: "/vow/4"}, {image: Worship, path: "/vow/5"}, {image: Light, path: "/vow/6"}, {image: Stop, path: "/vow/7"}, {image: Gurdian, path: "/vow/8"}, {image: Kill, path: "/vow/9"}],
-            images: [Pyramid, Give, Darkness, Traveller, Worship, Light, Stop, Gurdian, Kill],
             theme: "orange-400"
         }
     },
@@ -63,9 +63,10 @@ const routes = [
         name: "rootselect",
         exact: null,
         path: "/rootselect",
-        page: NotFound,
+        page: SymbolSelect,
         props: {
-
+            symbolData: [{image: LightNode, path: "/root/1"}, {image: LightNode, path: "/root/3"}, {image: LightNode, path: "/root/5"}, {image: DarkNode, path: "/root/2"}, {image: DarkNode, path: "/root/4"}, {image: DarkNode, path: "/root/6"}],
+            theme: ""
         }
     },
 
@@ -271,7 +272,75 @@ const routes = [
             description: "After the third encounter you will have to climb a few floor. At the top, turn around and you will see a floating crystal to shoot, this opens a door to the left, enter it. At the back of this room will be a small square to shoot."
         }
     },
+
     // Root of Nightmares
+    {
+        name: "light1",
+        exact: null,
+        path: "/root/1",
+        page: SymbolLocation,
+        props: {
+            image: LightNode,
+            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            description: "Light 1"
+        }
+    },
+    {
+        name: "light2",
+        exact: null,
+        path: "/root/3",
+        page: SymbolLocation,
+        props: {
+            image: LightNode,
+            iframe: "https://www.youtube.com/embed/Ogd7IdhCnq4",
+            description: "Light 2"
+        }
+    },
+    {
+        name: "light3",
+        exact: null,
+        path: "/root/5",
+        page: SymbolLocation,
+        props: {
+            image: LightNode,
+            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            description: "Light 3"
+        }
+    },
+    {
+        name: "dark1",
+        exact: null,
+        path: "/root/2",
+        page: SymbolLocation,
+        props: {
+            image: DarkNode,
+            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            description: "Dark 1"
+        }
+    },
+    {
+        name: "dark2",
+        exact: null,
+        path: "/root/4",
+        page: SymbolLocation,
+        props: {
+            image: DarkNode,
+            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            description: "Dark 2"
+        }
+    },
+    {
+        name: "dark3",
+        exact: null,
+        path: "/root/6",
+        page: SymbolLocation,
+        props: {
+            image: DarkNode,
+            iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
+            description: "Dark 3"
+        }
+    },
+
     // Err Routes
     {
         name: "404",
