@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const RaidCard = ({imageSrc, raidName, alt, theme, route}) => {
     return (
-        <figure className="w-11/12 lg:max-w-xl 2xl:max-w-3xl">
+        <figure className="w-11/12 lg:max-w-3xl">
             <Link to={route}>
                 <img
                     src={imageSrc}
