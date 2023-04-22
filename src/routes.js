@@ -113,7 +113,7 @@ const routes = [
         props: {
             image: Rune4,
             iframe: "https://www.youtube.com/embed/Nqrh7ui0B04",
-            description: "In the Warpriest encounter, make your way up the stairs on the left, at the top there will be a glowing circle to shoot on the wall."
+            description: "In the Warpriest encounter, make your way up the stairs on the far right corner, at the top there will be a glowing circle to shoot on the wall."
         }
     },
     {
@@ -282,7 +282,7 @@ const routes = [
         props: {
             image: LightNode,
             iframe: "https://www.youtube.com/embed/HlI6x44jtCM",
-            description: "Light 1"
+            description: "Just before the first encounter there will be a room, make your way to the back and there will be an opening in the wall, this will lead you down some stairs into a new room, connect the light nodes inside."
         }
     },
     {
@@ -293,7 +293,7 @@ const routes = [
         props: {
             image: LightNode,
             iframe: "https://www.youtube.com/embed/NtmUeXGRWQk",
-            description: "Light 2"
+            description: "After the second enounter, there will be a jumping puzzle, traverse it until you see a large broken off part of pyramid architecture to the left. Jump over to it and enter the opening in the wall, this will lead you into a new room, connect the light nodes inside."
         }
     },
     {
@@ -304,7 +304,7 @@ const routes = [
         props: {
             image: LightNode,
             iframe: "https://www.youtube.com/embed/509dnxYNkio",
-            description: "Light 3"
+            description: "Close to the final encounter, there will be roots connected to pyramid looking architecture with three goldish squares, jump down to the bottom right onto the broken platform. There will be an opening above, enter it and connect the light nodes inside."
         }
     },
     {
@@ -315,7 +315,7 @@ const routes = [
         props: {
             image: DarkNode,
             iframe: "https://www.youtube.com/embed/Ogd7IdhCnq4",
-            description: "Dark 1"
+            description: "Just before the first encounter there will be a room, make your way to the back and there will be an opening in the wall, this will lead you down some stairs into a new room, connect the dark nodes in here."
         }
     },
     {
@@ -326,7 +326,7 @@ const routes = [
         props: {
             image: DarkNode,
             iframe: "https://www.youtube.com/embed/yzNSZZ8ay7w",
-            description: "Dark 2"
+            description: "After the second enounter, there will be a jumping puzzle, traverse it until you see a large broken off part of pyramid architecture to the left. Jump over to it and enter the opening in the wall, this will lead you into a new room, connect the dark nodes inside."
         }
     },
     {
@@ -337,7 +337,7 @@ const routes = [
         props: {
             image: DarkNode,
             iframe: "https://www.youtube.com/embed/mVDU6e8sMpk",
-            description: "Dark 3"
+            description: "Close to the final encounter, there will be roots connected to pyramid looking architecture with three goldish squares, jump down to the bottom right onto the broken platform. There will be an opening above, enter it and connect the dark nodes inside."
         }
     },
 
