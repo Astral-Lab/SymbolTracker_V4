@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import routes from './routes';
 
 function App() {
+  console.log(window.location)
   return (
     <div className="w-full min-h-screen bg-black-light flex flex-col font-gemunu place-items-center">
       <Header/>
