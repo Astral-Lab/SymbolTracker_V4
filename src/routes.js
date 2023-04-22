@@ -304,7 +304,7 @@ const routes = [
         props: {
             image: LightNode,
             iframe: "https://www.youtube.com/embed/509dnxYNkio",
-            description: "Close to the final encounter, there will be roots connected to pyramid looking architecture with three goldish squares, jump down to the bottom right onto the broken platform. There will be an opening above, enter it and connect the light nodes inside."
+            description: "Close to the final encounter, there will be roots connected to pyramid style architecture with three gold squares, jump down to the bottom right onto the broken platform. There will be an opening above, enter it and connect the light nodes inside."
         }
     },
     {
@@ -337,7 +337,7 @@ const routes = [
         props: {
             image: DarkNode,
             iframe: "https://www.youtube.com/embed/mVDU6e8sMpk",
-            description: "Close to the final encounter, there will be roots connected to pyramid looking architecture with three goldish squares, jump down to the bottom right onto the broken platform. There will be an opening above, enter it and connect the dark nodes inside."
+            description: "Close to the final encounter, there will be roots connected to pyramid style architecture with three gold squares, jump down to the bottom right onto the broken platform. There will be an opening above, enter it and connect the dark nodes inside."
         }
     },
 
