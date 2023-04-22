@@ -1,7 +1,7 @@
 {
   "name": "symboltracker",
   "version": "0.1.0",
-  "homepage": "https://SymbolTracker_V3/",
+  "homepage": "https://symboltracker.net/",
   "private": true,
   "dependencies": {
     "history": "^5.3.0",
