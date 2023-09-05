@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6231de79.css",
-    "main.js": "/static/js/main.7b643e19.js",
+    "main.css": "/static/css/main.0d78fb49.css",
+    "main.js": "/static/js/main.89e093a6.js",
     "static/media/VowStart.jpg": "/static/media/VowStart.4860335d1f01f9e35cc2.jpg",
     "static/media/KingsFallStart.jpg": "/static/media/KingsFallStart.369201833152a7d44a44.jpg",
+    "static/media/CrotaStart.jpg": "/static/media/CrotaStart.a96e6d572c605e85ca79.jpg",
+    "static/media/mr.jpg": "/static/media/mr.933701cee7244d2136e0.jpg",
+    "static/media/ml.jpg": "/static/media/ml.13d93f84e751757fb8dd.jpg",
     "static/media/RoNStart.jpg": "/static/media/RoNStart.f86b2612025ca2b1b290.jpg",
+    "static/media/rl.jpg": "/static/media/rl.4f39b00949dc25f0c4bf.jpg",
+    "static/media/rr.jpg": "/static/media/rr.bd9feb0e68c03dae729e.jpg",
+    "static/media/lr.jpg": "/static/media/lr.838c12c01afacef6aad9.jpg",
+    "static/media/ll.jpg": "/static/media/ll.ef508327d3b34af7c6a4.jpg",
     "static/media/light.png": "/static/media/light.e38cd062a1d9485a7b6b.png",
     "static/media/darkNode.png": "/static/media/darkNode.78a2e36876289af0af40.png",
     "static/media/lightNode.png": "/static/media/lightNode.a36b8b325bd2bfe69349.png",
@@ -17,11 +24,11 @@
     "static/media/kill.png": "/static/media/kill.7f3decb9e3d11c49c010.png",
     "static/media/stop.png": "/static/media/stop.c17f7462a0f73156aa1e.png",
     "index.html": "/index.html",
-    "main.6231de79.css.map": "/static/css/main.6231de79.css.map",
-    "main.7b643e19.js.map": "/static/js/main.7b643e19.js.map"
+    "main.0d78fb49.css.map": "/static/css/main.0d78fb49.css.map",
+    "main.89e093a6.js.map": "/static/js/main.89e093a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6231de79.css",
-    "static/js/main.7b643e19.js"
+    "static/css/main.0d78fb49.css",
+    "static/js/main.89e093a6.js"
   ]
 }
