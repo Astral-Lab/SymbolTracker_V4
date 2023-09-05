@@ -21,7 +21,7 @@
 > * Web App Manifest added
 > * Root of Nightmares support added
 
-### [Update 3.1](https://symboltracker.net) - 23/04/2023
+### [Update 3.1.0](https://symboltracker.net) - 23/04/2023
 > * Crota's End support added
 
 ## FAQs
