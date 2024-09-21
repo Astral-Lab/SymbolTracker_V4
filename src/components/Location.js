@@ -1,7 +1,5 @@
 import { useNavigate } from "react-router-dom"
 
-// must show icon for salvation's i.e. if pyramid, circle etc
-// salvation's order is reversed!
 export default function Location({ 
     location,
     handleLeftClick,
