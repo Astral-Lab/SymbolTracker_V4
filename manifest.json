@@ -1,30 +1,16 @@
 {
-  "short_name": "SymbolTracker",
-  "name": "symboltracker",
+  "short_name": "Symbol Tracker",
+  "name": "Symbol Tracker",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
+      "type": "image/x-icon"
     }
   ],
   "start_url": "https://symboltracker.net/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#000000",
-  "description": "An easy to follow guide to unlock the secret deep sight chest in the Vow of The Disciple, King's Fall, and Root of Nightmares raids.",
-  "shortcuts": [
-    {
-      "name": "RoN Select",
-      "url": "/rootselect"
-    },
-    {
-      "name": "KF Select",
-      "url": "/kfselect"
-    },
-    {
-      "name": "Vow Select",
-      "url": "/vowselect"
-    }
-  ]
+  "background_color": "#ffffff",
+  "description": "An easy to follow guide to unlock the secret deep sight chest in the Salvation's Edge, Crota's End, and Root of Nightmares raids."
 }
