@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# [Symbol Tracker](https://symboltracker.net)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+> Symbol Tracker provides Destiny 2 players with an easy to use website, to unlock the secret Deepsight chest in the Vow of The Disciple, King's Fall, and Root of Nightmares raids.
 
-## Available Scripts
+## Update Log
 
-In the project directory, you can run:
+### [Initial Release 1.0.0](https://astral-lab.github.io/Symbol-Tracker-V1/) - 26/09/2022 
+> * Symboltracker went live for the first time
 
-### `npm start`
+### [Update 2.0.0](https://astral-lab.github.io/Symbol_Tracker/) - 01/11/2022
+> * Complete site rework
+> * UI changes
+> * Added support for Vow of The Disciple raid
+> * Open Graph Protocol support added
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### [Update 3.0.0](https://symboltracker.net) - 23/04/2023
+> * Rebuilt using React and Tailwind
+> * UI Changes
+> * Updated OGP image
+> * Web App Manifest added
+> * Root of Nightmares support added
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### [Update 3.1.0](https://symboltracker.net) - 23/04/2023
+> * Crota's End support added
 
-### `npm test`
+## FAQs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Why did I make Symbol Tracker?
+> In September 2022 I started learning Web Development, and wanted to put what I had learned to the test. 
+> One of the first project ideas that came to mind, was a website to guide players through unlocking the 
+> secret Deepsight chest in the King's Fall raid. For a more design oriented answer see below.
 
-### `npm run build`
+### Can't I just watch a YouTube video or look at a picture to find the symbols?
+> You can, but Symbol Tracker provides a much smoother user experience. Why? Let's say you're doing the King's Fall raid and want to unlock the Deepsight chest.
+What usually ends up happening is, maybe you take a screenshot of the symbols you need or type numbers in chat to remember them. Now, either you know all the 
+symbol locations off the top of your head, or you look at a video / picture guide. If you're using a video guide it can be frustrating to find the part of the video you need, or maybe you need to rewatch part of the video, so you try and rewind it but end up rewinding too far or too soon, which is frustrating. If you're using
+a picture guide, you have to scan the picture for the symbol you need, read the description, but maybe its not detailed enough, so you end up finding a video 
+guide anyway. Not to mention, if you are taking a screenshot of the symbols you need, that takes up storage on your device.
+If you raid a regularly, that's a lot of bytes being eaten up. This is why I built Symbol Tracker. It provides convenience. It gives all Destiny players an incredibly easy way to unlock the secret chest.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### You said you released Symbol Tracker back in September, why did I not hear about it then?
+> Great question! And yes, I did release it back in September (2022). On the initial September release, Symbol Tracker only had support for the King's Fall raid and looked
+> considerably different. If you are interested in having a look here's a link: [[old] Symbol Tracker](https://astral-lab.github.io/Symbol-Tracker-V1/).
+> I would also like to add I never origianlly planned for Symbol Tracker to be available to the public, as it was just meant to be a personal project to apply what I
+> had learned. The turning point came a few weeks after I had finished the first iteration of Symbol Tracker, as I felt I could significantly improve the quality of 
+> the site, in terms of the UI and how I structured the code. Fast forward till now, I can say I am happy with what I have been able to
+> achieve in this short amount of time, and look forward to further improving the site.
