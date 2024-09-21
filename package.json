@@ -1,21 +1,20 @@
 {
   "name": "symboltracker",
   "version": "0.1.0",
+  "homepage": "https://symboltracker.net",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "clsx": "^2.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.2",
     "react-scripts": "^5.0.1",
-    "tailwind-scrollbar-hide": "^1.1.7",
-    "web-vitals": "^2.1.4"
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.12"
   }
 }
