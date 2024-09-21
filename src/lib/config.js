@@ -1,8 +1,8 @@
 // Salvation's Edge
 import EDGE_COVER from "../assets/salvation's edge/cover.webp";
-import TRIANGLE from "../assets/root of nightmares/cover.jpg";
-import SQUARE from "../assets/root of nightmares/cover.jpg";
-import CIRCLE from "../assets/root of nightmares/cover.jpg";
+import TRIANGLE from "../assets/salvation's edge/triangle.png";
+import SQUARE from "../assets/salvation's edge/square.png";
+import CIRCLE from "../assets/salvation's edge/circle.png";
 
 // Crota's End
 import CROTA_COVER from "../assets/crota's end/cover.jpg";
@@ -54,7 +54,7 @@ export const RAIDS_CONFIG = [
                 name: "triangle 1",
                 icon: TRIANGLE,
                 iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
-                desc: "mention 'pick up circle/triangle/square buff'",
+                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a triangle buff'",
                 option: 1,
                 order: 1
             },
@@ -62,7 +62,7 @@ export const RAIDS_CONFIG = [
                 name: "square 1",
                 icon: SQUARE,
                 iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
-                desc: "",
+                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a square buff.",
                 option: 1,
                 order: 1
             },
@@ -70,7 +70,7 @@ export const RAIDS_CONFIG = [
                 name: "circle 1",
                 icon: CIRCLE,
                 iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
-                desc: "",
+                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a circle buff",
                 option: 1,
                 order: 1
             },
@@ -78,7 +78,7 @@ export const RAIDS_CONFIG = [
                 name: "triangle 2",
                 icon: TRIANGLE,
                 iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
-                desc: "",
+                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a triangle buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
                 option: 2,
                 order: 2
             },
@@ -86,7 +86,7 @@ export const RAIDS_CONFIG = [
                 name: "square 2",
                 icon: SQUARE,
                 iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
-                desc: "",
+                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a square buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
                 option: 2,
                 order: 2
             },
@@ -94,7 +94,7 @@ export const RAIDS_CONFIG = [
                 name: "circle 2",
                 icon: CIRCLE,
                 iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
-                desc: "",
+                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a circle buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
                 option: 2,
                 order: 2
             },
@@ -102,7 +102,7 @@ export const RAIDS_CONFIG = [
                 name: "triangle 3",
                 icon: TRIANGLE,
                 iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
-                desc: "",
+                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a triangle buff.",
                 option: 3,
                 order: 3
             },
@@ -110,7 +110,7 @@ export const RAIDS_CONFIG = [
                 name: "square 3",
                 icon: SQUARE,
                 iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
-                desc: "",
+                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a square buff.",
                 option: 3,
                 order: 3
             },
@@ -118,7 +118,7 @@ export const RAIDS_CONFIG = [
                 name: "circle 3",
                 icon: CIRCLE,
                 iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
-                desc: "",
+                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a circle buff.",
                 option: 3,
                 order: 3
             },
@@ -126,7 +126,7 @@ export const RAIDS_CONFIG = [
                 name: "triangle 4",
                 icon: TRIANGLE,
                 iframe: "https://www.youtube.com/embed/JzozYYyOFS0",
-                desc: "",
+                desc: "after the second encounter you will come across another chasm with orange beams, instead of going forwards, jump to the opening on the left wall behind you, enter the room, and charge the fourth conduit with a triangle buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
                 option: 4,
                 order: 4
             },
@@ -134,7 +134,7 @@ export const RAIDS_CONFIG = [
                 name: "square 4",
                 icon: SQUARE,
                 iframe: "https://www.youtube.com/embed/JzozYYyOFS0",
-                desc: "",
+                desc: "after the second encounter you will come across another chasm with orange beams, instead of going forwards, jump to the opening on the left wall behind you, enter the room, and charge the fourth conduit with a square buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
                 option: 4,
                 order: 4
             },
@@ -142,7 +142,7 @@ export const RAIDS_CONFIG = [
                 name: "circle 4",
                 icon: CIRCLE,
                 iframe: "https://www.youtube.com/embed/JzozYYyOFS0",
-                desc: "",
+                desc: "after the second encounter you will come across another chasm with orange beams, instead of going forwards, jump to the opening on the left wall behind you, enter the room, and charge the fourth conduit with a circle buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
                 option: 4,
                 order: 4
             },
@@ -150,7 +150,7 @@ export const RAIDS_CONFIG = [
                 name: "triangle 5",
                 icon: TRIANGLE,
                 iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
-                desc: "",
+                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a triangle buff.",
                 option: 5,
                 order: 5
             },
@@ -158,7 +158,7 @@ export const RAIDS_CONFIG = [
                 name: "square 5",
                 icon: SQUARE,
                 iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
-                desc: "",
+                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a square buff.",
                 option: 5,
                 order: 5
             },
@@ -166,7 +166,7 @@ export const RAIDS_CONFIG = [
                 name: "circle 5",
                 icon: CIRCLE,
                 iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
-                desc: "",
+                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a circle buff.",
                 option: 5,
                 order: 5
             },

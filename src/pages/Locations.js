@@ -41,7 +41,7 @@ export default function Locations({ raid }) {
 
     return (
         <div className="w-full h-full flex justify-center items-center z-10 relative">
-            <div className="w-full lg:max-w-[500px] h-full lg:h-[650px] bg-dark-four shadow-md">
+            <div className="w-full lg:max-w-[500px] h-full  bg-dark-four shadow-md">
                 {index === -1 ? (
                     <LocationGrid 
                         raid={raid}
