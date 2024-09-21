@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Layout() {
     return (
-        <div className="w-full min-h-screen h-0 bg-dark-three flex flex-col items-center font-fugaz text-white-main uppercase overflow-y-scroll scrollbar-hide">
+        <div className="w-full min-h-screen h-0 bg-dark-three flex flex-col items-center font-fugaz text-white-main uppercase overflow-y-scroll scrollbar-hide overflow-x-clip">
             <Header/>
             <main className="w-full shrink-0 grow relative lg:pb-16">
                 <Outlet/>
