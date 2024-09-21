@@ -6,12 +6,12 @@ import CIRCLE from "../assets/salvation's edge/circle.png";
 
 // Crota's End
 import CROTA_COVER from "../assets/crota's end/cover.jpg";
-import RIGHT_START from "../assets/crota's end/rr.jpg";
-import LEFT_START from "../assets/crota's end/rl.jpg";
+import RIGHT_END from "../assets/crota's end/rr.jpg";
+import LEFT_END from "../assets/crota's end/rl.jpg";
 import RIGHT_MID from "../assets/crota's end/mr.jpg";
 import LEFT_MID from "../assets/crota's end/ml.jpg";
-import RIGHT_END from "../assets/crota's end/lr.jpg";
-import LEFT_END from "../assets/crota's end/ll.jpg";
+import RIGHT_START from "../assets/crota's end/lr.jpg";
+import LEFT_START from "../assets/crota's end/ll.jpg";
 
 // Root of Nightmares
 import ROOT_COVER from "../assets/root of nightmares/cover.jpg";
@@ -46,6 +46,8 @@ export const RAIDS_CONFIG = [
     {
         name: "salvation's edge",
         image: EDGE_COVER,
+        video: "https://www.youtube.com/embed/oHueNLrQ6ec",
+        desc: "near the start of the raid there will be a wall at the back with columns of shapes on it. look at the third column from the left and read the symbols from top to bottom. input these symbols into the site.",
         rows: 5,
         cols: 3,
         select: 5,
@@ -175,6 +177,8 @@ export const RAIDS_CONFIG = [
     {
         name: "crota's end",
         image: CROTA_COVER,
+        video: "https://www.youtube.com/embed/JsO-QmOJSmQ",
+        desc: "at the start of the raid there will be three pairs statues located in the distance, each pair will either have the left or right statue on fire. read which status is on fire from left to right and input this into the site.",
         rows: 2,
         cols: 3,
         select: 3,
@@ -232,6 +236,8 @@ export const RAIDS_CONFIG = [
     {
         name: "root of nightmares",
         image: ROOT_COVER,
+        video: "https://www.youtube.com/embed/w0dB4SJZ1I8",
+        desc: "near the start of the raid there will be three nodes, each one can either be light or dark. read the nodes from left to right and input them into the site.",
         rows: 2,
         cols: 3,
         select: 3,
@@ -289,6 +295,8 @@ export const RAIDS_CONFIG = [
     {
         name: "king's fall",
         image: KING_COVER,
+        video: "https://www.youtube.com/embed/nfxB36YeBBc",
+        desc: "before entering the portal at the start of the raid, go underneath it and you will see 3 symbols, one on the left, middle, and right. input these symbols into the site.",
         rows: 3,
         cols: 3,
         select: 3,
@@ -370,6 +378,8 @@ export const RAIDS_CONFIG = [
     {
         name: "vow of the disciple",
         image: VOW_COVER,
+        video: "https://www.youtube.com/embed/umzw0YWBKHQ",
+        desc: "right before dropping down into the pyramid there will be a pillar with three symbols on it, input these 3 symbols into the site.",
         rows: 3,
         cols: 3,
         select: 3,
