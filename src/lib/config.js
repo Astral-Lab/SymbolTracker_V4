@@ -51,76 +51,28 @@ export const RAIDS_CONFIG = [
         select: 5,
         locations: [
             {
-                name: "triangle 1",
+                name: "triangle 5",
                 icon: TRIANGLE,
-                iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
-                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a triangle buff'",
-                option: 1,
-                order: 1
+                iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
+                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a triangle buff.",
+                option: 5,
+                order: 5
             },
             {
-                name: "square 1",
+                name: "square 5",
                 icon: SQUARE,
-                iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
-                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a square buff.",
-                option: 1,
-                order: 1
+                iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
+                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a square buff.",
+                option: 5,
+                order: 5
             },
             {
-                name: "circle 1",
+                name: "circle 5",
                 icon: CIRCLE,
-                iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
-                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a circle buff",
-                option: 1,
-                order: 1
-            },
-            {
-                name: "triangle 2",
-                icon: TRIANGLE,
-                iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
-                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a triangle buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
-                option: 2,
-                order: 2
-            },
-            {
-                name: "square 2",
-                icon: SQUARE,
-                iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
-                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a square buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
-                option: 2,
-                order: 2
-            },
-            {
-                name: "circle 2",
-                icon: CIRCLE,
-                iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
-                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a circle buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
-                option: 2,
-                order: 2
-            },
-            {
-                name: "triangle 3",
-                icon: TRIANGLE,
-                iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
-                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a triangle buff.",
-                option: 3,
-                order: 3
-            },
-            {
-                name: "square 3",
-                icon: SQUARE,
-                iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
-                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a square buff.",
-                option: 3,
-                order: 3
-            },
-            {
-                name: "circle 3",
-                icon: CIRCLE,
-                iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
-                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a circle buff.",
-                option: 3,
-                order: 3
+                iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
+                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a circle buff.",
+                option: 5,
+                order: 5
             },
             {
                 name: "triangle 4",
@@ -147,29 +99,77 @@ export const RAIDS_CONFIG = [
                 order: 4
             },
             {
-                name: "triangle 5",
+                name: "triangle 3",
                 icon: TRIANGLE,
-                iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
-                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a triangle buff.",
-                option: 5,
-                order: 5
+                iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
+                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a triangle buff.",
+                option: 3,
+                order: 3
             },
             {
-                name: "square 5",
+                name: "square 3",
                 icon: SQUARE,
-                iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
-                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a square buff.",
-                option: 5,
-                order: 5
+                iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
+                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a square buff.",
+                option: 3,
+                order: 3
             },
             {
-                name: "circle 5",
+                name: "circle 3",
                 icon: CIRCLE,
-                iframe: "https://www.youtube.com/embed/swhZ3qkPhgg",
-                desc: "near the thrid encounter there will be a large chasm with orange platforms. at the start of the chasm turn left and climb upwards and you will see the conduit, charge it with a circle buff.",
-                option: 5,
-                order: 5
+                iframe: "https://www.youtube.com/embed/mh7XPFwpcKw",
+                desc: "near the second encounter there will be some large blue cubes you can climb on, when at the top of them jump to the platform on the right and enter the wall. progress forwards, enter the room, and charge the thrid conduit with a circle buff.",
+                option: 3,
+                order: 3
             },
+            {
+                name: "triangle 2",
+                icon: TRIANGLE,
+                iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
+                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a triangle buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
+                option: 2,
+                order: 2
+            },
+            {
+                name: "square 2",
+                icon: SQUARE,
+                iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
+                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a square buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
+                option: 2,
+                order: 2
+            },
+            {
+                name: "circle 2",
+                icon: CIRCLE,
+                iframe: "https://www.youtube.com/embed/iWOpyhTEaeY",
+                desc: "towards the end of the chasm you will pass through a door with a small stair shaped platform on the left. jump underneath it, enter the room, and charge the second conduit with a circle buff. this room requires having all the encounter triumphs complete and is not required for the red border, but to get the mods from the raid.",
+                option: 2,
+                order: 2
+            },
+            {
+                name: "triangle 1",
+                icon: TRIANGLE,
+                iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
+                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a triangle buff'",
+                option: 1,
+                order: 1
+            },
+            {
+                name: "square 1",
+                icon: SQUARE,
+                iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
+                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a square buff.",
+                option: 1,
+                order: 1
+            },
+            {
+                name: "circle 1",
+                icon: CIRCLE,
+                iframe: "https://www.youtube.com/embed/XgTqZYV9ypA",
+                desc: "at the start of the raid there will be a large chasm, instead of going forwards, turn left and continue until you see a door. enter it, turn right, and charge the first conduit with a circle buff",
+                option: 1,
+                order: 1
+            } 
         ]
     },
     {

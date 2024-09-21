@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 
-// on location change close navigation menu
 export default function Layout() {
     return (
         <div className="w-full min-h-screen h-0 bg-dark-three flex flex-col items-center font-fugaz text-white-main uppercase overflow-y-scroll scrollbar-hide">

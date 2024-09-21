@@ -7,16 +7,16 @@ export default function LocationGrid({
     handleRightClick
 }) {
     const showLocations = selected.length === raid.select;
-    const symbols = raid.locations.map((location, i) => (
+    const symbols = raid.locations.map(location => (
         <div 
             key={location.name}
             className={clsx(
                 "w-full aspect-square border-[1px] border-dark-border hover:cursor-pointer rounded-lg p-2",
                 {
-                    "bg-white-main": selected.includes(i)
+                    "bg-white-main": selected.find(l => l.name === location.name)
                 }
             )}
-            onClick={() => handleSelect(i)}
+            onClick={() => handleSelect(location)}
         >
             <img
                 className="w-full h-full"

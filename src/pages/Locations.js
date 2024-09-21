@@ -5,29 +5,30 @@ import Location from "../components/Location";
 export default function Locations({ raid }) {
     const [selected, setSelected] = useState([]);
     const [index, setIndex] = useState(-1);
-    const locationOrder = [...selected].sort((a, b) => a - b);
-    console.log(locationOrder) // sorting does not work when multiple options are available
+    const locationOrder = [...selected].sort((a, b) => a.order - b.order);
+
+    console.log(selected)
 
     // handlers
-    const handleSelect = (locationIndex) => {
+    const handleSelect = (location) => {
         // was an already selected location clicked?
-        if(selected.includes(locationIndex)) {
-            setSelected(selected.filter(s => s !== locationIndex));
+        if(selected.find(l => l.name === location.name)) {
+            setSelected(selected.filter(l => l.name !== location.name));
             return;
         };
 
         // check if the selected location already contains an option for the clicked location (i.e. light/dark in RoN)
-        const option = selected.find(s => raid.locations[s].option === raid.locations[locationIndex].option);
+        const option = selected.find(l => l.option === location.option);
 
         // if so, then remove the location from the selected ones and push the new location option
         if(option) {
-            setSelected([...selected.filter(s => s !== option), locationIndex]);
+            setSelected([...selected.filter(l => l.name !== option.name), location]);
             return;
         };
 
         // the max number of symbols have been selected
         if(selected.length !== raid.select) {
-            setSelected([...selected, locationIndex]);
+            setSelected([...selected, location]);
         };
     };
 
@@ -41,7 +42,7 @@ export default function Locations({ raid }) {
 
     return (
         <div className="w-full h-full flex justify-center items-center z-10 relative">
-            <div className="w-full lg:max-w-[500px] h-full  bg-dark-four shadow-md">
+            <div className="w-full lg:max-w-[500px] h-full lg:h-fit bg-dark-four shadow-md">
                 {index === -1 ? (
                     <LocationGrid 
                         raid={raid}
@@ -51,7 +52,7 @@ export default function Locations({ raid }) {
                     />
                 ) : (
                     <Location 
-                        location={raid.locations[locationOrder[index]]} 
+                        location={locationOrder[index]} 
                         handleLeftClick={handleLeftClick} 
                         handleRightClick={handleRightClick} 
                         finalLocation={index === raid.select - 1}
