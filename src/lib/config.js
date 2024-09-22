@@ -178,7 +178,7 @@ export const RAIDS_CONFIG = [
         name: "crota's end",
         image: CROTA_COVER,
         video: "https://www.youtube.com/embed/JsO-QmOJSmQ",
-        desc: "at the start of the raid there will be three pairs statues located in the distance, each pair will either have the left or right statue on fire. read which status is on fire from left to right and input this into the site.",
+        desc: "at the start of the raid there will be three pairs of statues located in the distance, each pair will either have the left or right statue on fire. read which status is on fire from left to right and input this into the site.",
         rows: 2,
         cols: 3,
         select: 3,
